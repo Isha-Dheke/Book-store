@@ -1,0 +1,269 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAVIGATION BAR */
+
+/* NAVIGATION: LOGO  */
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 38px;
+    width: 50px;
+    border: 2px solid rgb(240, 240, 165);
+    border-radius: 101px;
+    margin: 2px;
+    margin-right: 350px;
+    margin-left: 20px;
+}
+
+/* NAVIGATION: NAVLIST */
+.navbar{
+    display: flex;
+    background: rgb(29, 28, 28);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navlist li{
+    list-style: none;
+    
+}
+
+.navlist li a{
+    text-decoration: none;
+    margin-left: 50px;
+    /* padding: 5px 5px; */
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+}
+
+/* NAVLIST:HOVER */
+.navlist li a:hover{
+    color: rgb(177, 73, 73);
+    background-color: whitesmoke;
+    border-radius: 20px ;
+}
+
+.navlist{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/* NAVIGATION: RIGHTSIDENAV */
+.rightsidenav{
+    width: 30%;
+    text-align: right;
+    color: aliceblue;
+    font-size:28px;
+    margin-right: 20px;
+}
+
+/* SECTION PART */
+.sec{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+/* SECTION: BOX */
+.box{
+
+    height: 80%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* SECTION: Button */
+.btnn{
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    background-color: rgb(247, 247, 238);
+    font-family: 'Roboto', sans-serif;
+     margin: 40px auto;
+     max-width: 60%;
+     max-height: 60%;
+     cursor: pointer;
+ }
+/* SECTION: BOX: BIG */
+.big{
+    font-size: 5rem;
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SECTION: BIG: COLOR */
+.color{
+    color: rgb(172, 116, 11);
+}
+
+/* SECTION: BOX: SMALL */
+.small{
+    font-size: 1.5rem;
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SECTION:IMAGE */
+.rightimage img{
+    height: 71%;
+    width: 112%;
+    margin: 52px 20px;
+    border: 2px solid black;
+    justify-content: right;
+    text-align: right;
+    border: 1px solid rgb(243, 232, 232);
+    padding: 15px;
+}
+
+/* MIDBOTTOM */
+.bottomdest{
+    display: flex;
+    height: 40%;
+}
+
+/* MIDBOTTOm:TITLE */
+.title{
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(172, 116, 11);
+}
+  
+/* MIDBOTTOM:IMG */
+img{
+    height: 300px;
+    width: 200px;
+}
+
+.bottomdest{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 1.5rem;
+    margin-left: 80px;
+}
+
+.card{
+    margin-bottom: 20%;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+}
+p{
+    font-size: 18px;
+    color: rgb(172, 116, 11);
+}
+
+.button{
+    font-size: 15px;
+    border: 2px solid black;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* FOOTER */
+.mainsection{
+    background-color:rgb(172, 116, 11) ;
+    border-top: 5px rgb(230, 174, 69) solid;
+}
+h1{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.section-pt1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 7rem;
+    height: 60%;
+    width: auto;
+   margin-bottom: -40px;
+}
+
+h{
+    font-size: 18px;
+    color: aliceblue;
+}
+
+/* PARA:INSIDE */
+.row1{
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.row2{
+    font-size: 18px;
+    color: aliceblue;
+    border: 2px solid black;
+    width: 70%;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.para{
+    margin: 15px;
+}
+
+
+.connection{
+    width: auto;
+    height: 20%;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.section-pt2{
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: wheat;
+    
+}
+
+.section-pt3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+}
+
+.leftside{
+    margin-left: 8%;
+}
+
+.rightside{
+    width: 50%;
+    height: 20%;
+    justify-content: right;
+    margin-left: 50%;
+}
